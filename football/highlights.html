@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界杯</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/JS.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <h2>卡塔尔世界杯</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="btn btn-success button-action button-circle buttom-jumbo">
+                <i class="fa fa-thumbs-up fa-2x"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active mx-3">
+                        <a class="nav-link text-primary" href="index.html">首页 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-warning" href="competition.html">赛程</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-info" href="highlights.html">精彩集锦</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-danger" href="players.html">球员</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle text-dark btn btn-warning" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa fa-user fa-fw"></i> 球队
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Argentina.html">阿根廷队</a>
+                            <a class="dropdown-item" href="Brazil.html">巴西队</a>
+                            <a class="dropdown-item" href="France.html">法国队</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="China.html">中国队</a>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item mx-3">
+                        <a type="button" class="nav-link btn btn-secondary text-white" href="login.html">登录</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">搜索</button>
+                </form>
+            </div>
+        </nav>
+        <!-- 卡片组 -->
+        <div class="card-group" style="margin-top: 20px;">
+            <div class="card border-0" style="width: 18rem;margin-right: 10px;">
+                <div class="card-img-top" alt="...">
+                    <video width="320" height="240" controls>
+                        <source src="videos/1.mp4" type="video/mp4">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-danger">阿根廷三比零击败克罗地亚<span class="badge badge-danger">暴热</span></h5>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;margin-right: 10px;">
+                <div id="accordion" style="margin-right: 30px;">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseOne" class="card-link" data-toggle="collapse">
+                                法国队新闻1
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse " data-parent="#accordion">
+                            <div class="card-body">
+                                进攻高效的卫冕冠军法国队14日晚以2:0淘汰“巨人杀手”摩洛哥队，闯入卡塔尔世界杯决赛。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseTwo" class="card-link" data-toggle="collapse">
+                                法国队新闻2
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse " data-parent="#accordion">
+                            <div class="card-body">
+                                特奥在开场不久“闪电战”似的凌空劲射，以及科洛·穆阿尼的近距离推射，帮助一度被对手压制的“高卢雄鸡”惊险过关，自2018年后再度闯入世界杯决赛。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseThree" class="card-link" data-toggle="collapse">
+                                法国队新闻3
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse " data-parent="#accordion">
+                            <div class="card-body">
+                                第79分钟，姆巴佩在禁区中路吸引了摩洛哥队四名球员盯防后一脚似传似射，替补上场仅一分钟的科洛·穆阿尼在远门柱杀出，轻松破门扩大比分。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;">
+                <div class="card-img-top" alt="...">
+                    <video width="320" height="240" controls>
+                        <source src="videos/2.mp4" type="video/mp4">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-info">C罗大战西班牙<span class="badge badge-success">飙升</span></h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-group" style="margin-top: 20px;">
+            <div class="card border-0" style="width: 18rem;margin-right: 10px;">
+                <div class="card-img-top" alt="...">
+                    <video width="320" height="240" controls>
+                        <source src="videos/3.mp4" type="video/mp4">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-muted">法国二比零摩洛哥<span class="badge badge-danger">暴热</span></h5>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;margin-right: 10px;">
+                <div id="accordion1" style="margin-right: 30px;">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseFour" class="card-link" data-toggle="collapse">
+                                摩洛哥队新闻1
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse " data-parent="#accordion1">
+                            <div class="card-body">
+                                赛前，摩洛哥队主教练雷格拉吉对本场比赛充满信心，直言球队无论面对哪个对手，目标永远都是赢得胜利。他认为，摩洛哥队能够杀入最后的决赛。法国队同样对胜利充满渴望，想成为1938年以来，继意大利队之后，第二支连续两届世界杯杀入决赛的欧洲球队。主帅德尚表示，球队正处于最佳状态。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseFive" class="card-link" data-toggle="collapse">
+                                摩洛哥队新闻2
+                            </a>
+                        </div>
+                        <div id="collapseFive" class="collapse " data-parent="#accordion1">
+                            <div class="card-body">
+                                易边再战，摩洛哥队大举压上力图扳平比分，不过法国队的后防线及时化解了对手的反击。第79分钟，姆巴佩凭借个人能力在禁区内送出一脚精妙传球，刚替补上场的恩昆库轻松破门，帮助法国队锁定胜局。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#collapseSix" class="card-link" data-toggle="collapse">
+                                摩洛哥队新闻3
+                            </a>
+                        </div>
+                        <div id="collapseSix" class="collapse " data-parent="#accordion1">
+                            <div class="card-body">
+                                雷格拉吉表示，球队受到了一定伤病困扰，但场上队员发挥了全部，“面对法国队这样的对手，稍有失误就会让球队付出代价。” 他表示，摩洛哥队将在与克罗地亚的三四名决赛中竭尽全力，“我们要向世界展现摩洛哥足球的存在。”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;">
+                <div class="card-img-top" alt="...">
+                    <video width="320" height="240" controls>
+                        <source src="videos/4.mp4" type="video/mp4">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-warning">摩洛哥倒挂金钩击破法国球门<span class="badge badge-info">新</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <footer class="pt-5 pb-3 footer footer-dark bg-light jumbotron " style="margin-top: 20px;width: 100%;margin-bottom:0;">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md">
+                    <h5 class="heading h6 text-uppercase font-weight-700 mb-3">联系</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">联系单位：XXXX</a></li>
+                        <li><a class="text-muted" href="#">详细地址：计算机学院</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="heading h6 text-uppercase font-weight-700 mb-3">加入我们</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Web前端工程师</a></li>
+                        <li><a class="text-muted" href="#">算法工程师</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="heading h6 text-uppercase font-weight-700 mb-3">服务使用协议</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">更新日期</a></li>
+                        <li><a class="text-muted" href="#">重要须知</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="heading h6 text-uppercase font-weight-700 mb-3">隐私政策</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">收集信息目的</a></li>
+                        <li><a class="text-muted" href="#">如何收集信息</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex align-items-center">
+                <span>
+                    &copy; XXXXXXXXX（学号） <a href="#" class="footer-link" target="_blank">XXX（姓名）</a>计科X班（班级）
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
